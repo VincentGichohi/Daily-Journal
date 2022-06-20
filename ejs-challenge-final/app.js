@@ -24,7 +24,7 @@ const postSchema = {
     content: String,
 };
 
-constpost = mongoose.model("Post", postSchema);
+const Post = mongoose.model("Post", postSchema);
 
 let posts = [];
 
